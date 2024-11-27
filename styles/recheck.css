@@ -29,6 +29,12 @@
     background-color: #FFF8F3;
 }
 
+.section-title{
+    font-size: 35px;
+    color: #181818;
+    font-weight: 800;
+}
+
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -87,4 +93,23 @@ nav ul li a {
 
 .banner-profile-pic {
     width: 580px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about styles */
+.about{
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
